@@ -1,5 +1,5 @@
 import ExerciseName from './ExerciseName';
-// import Logger from './Logger';
+import Logger from './Logger';
 import SetList from './SetList'
 
 
@@ -7,7 +7,7 @@ const ExerciseLog = () => {
     return (
         <div>
             <ExerciseName/>
-            {/* <Logger/> */}
+            <Logger/>
             <SetList/>
         </div>
     );
