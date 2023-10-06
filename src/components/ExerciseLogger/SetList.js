@@ -2,10 +2,12 @@ import SetItem from './SetItem';
 
 const SetList = () => {
     return (
-        <ol>
+        <div>
             <h4>Sets</h4>
-            <SetItem/>
-        </ol>
+            <ol className='set-list'>
+                <SetItem/>
+            </ol>
+        </div>  
     );
 }
 

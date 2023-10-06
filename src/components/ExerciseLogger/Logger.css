@@ -1,0 +1,10 @@
+.logger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logger-button {
+    display: flex;
+    align-items: center;
+}
